@@ -26,7 +26,8 @@ firebase.initializeApp({
   storageBucket: "crm-project-11b27.appspot.com",
   messagingSenderId: "728741716332",
   appId: "1:728741716332:web:854a62e60365645ad05349",
-  measurementId: "G-WG7MFV2291"
+  measurementId: "G-WG7MFV2291",
+  databaseURL: "https://crm-project-11b27-default-rtdb.europe-west1.firebasedatabase.app"
 });
 
 let app

@@ -6,10 +6,15 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-  },
-  getters: {
+    error: null
   },
   mutations: {
+    setError(state, error) {
+      state.error = error
+    }
+  },
+  getters: {
+    error: s => s.error
   },
   actions: {
   },
