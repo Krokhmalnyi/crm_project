@@ -15,7 +15,7 @@
     </main>
 
     <div class="fixed-action-btn">
-      <router-link class="btn-floating btn-large blue" to="/RecordView">
+      <router-link class="btn-floating btn-large blue" to="/RecordView" v-tooltip="'Створити нову запись'">
         <i class="large material-icons">add</i>
       </router-link>
     </div>
@@ -42,7 +42,8 @@ export default {
   },
   components: {
   NavbarView,
-  SidebarView
+  SidebarView,
+  
     
   }
 }
