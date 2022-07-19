@@ -10,6 +10,8 @@ import tooltipDirective from './directives/tooltip.directive'
 import messagePlugin from './utils/message.plugin'
 import 'materialize-css/dist/js/materialize.min'
 import loaderView from '@/components/app/LoaderView'
+import Paginate from 'vuejs-paginate'
+
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
@@ -17,6 +19,7 @@ import 'firebase/database'
 
 Vue.config.productionTip = false
 
+Vue.component('vuejs-paginate', Paginate)
 Vue.component('LoaderView', loaderView)
 Vue.use(messagePlugin)
 Vue.use(Vuelidate)

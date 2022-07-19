@@ -22,7 +22,7 @@
 export default {
   props: ['rates'],
   data: () => ({
-    currencies: ('RUB')
+    currencies: []
   }),
   computed: {
     base() {

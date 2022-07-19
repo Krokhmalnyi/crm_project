@@ -23,7 +23,7 @@ const routes = [
     component: () => import('@/views/CategoriesView.vue')
   },
   {
-    path: '/DetailView',
+    path: '/DetailView/:id',
     name: 'DetailView',
     meta:{layout: 'main'},
     component: () => import('@/views/DetailView.vue')
