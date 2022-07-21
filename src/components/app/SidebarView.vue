@@ -19,11 +19,11 @@ export default {
   props: ['value'],
   data: () => ({
     links: [
-      {title: 'Счет', url: '/', exact: true},
-      {title: 'История', url: '/HistoryView'},
-      {title: 'Планирование', url: '/PlanningView'},
-      {title: 'Новая запись', url: '/RecordView'},
-      {title: 'Категории', url: '/CategoriesView'}
+      {title: 'Рахунок', url: '/', exact: true},
+      {title: 'Історія', url: '/HistoryView'},
+      {title: 'Планування', url: '/PlanningView'},
+      {title: 'Новий запис', url: '/RecordView'},
+      {title: 'Категорії', url: '/CategoriesView'}
     ]
   })
 }
